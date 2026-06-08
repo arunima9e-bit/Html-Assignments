@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Website Layout</title>
+
+<style>
+body{
+    background:#d8cf97;
+    font-family:Arial;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    background:#f5f2de;
+    border:1px solid gray;
+}
+
+.header{
+    background:#b7d92c;
+    height:200px;
+    padding-top:50px;
+    padding-left:600px;
+}
+
+.nav{
+    background:#e5e0c7;
+    padding:20px;
+    text-align:center;
+}
+
+.nav a{
+    margin:30px;
+    text-decoration:none;
+    color:black;
+}
+
+.content{
+    width:100%;
+}
+
+.sidebar{
+    width:25%;
+    vertical-align:top;
+    padding:10px;
+}
+
+.main{
+    width:75%;
+    vertical-align:top;
+    padding:20px;
+}
+
+.box-title{
+    background:#c6d24e;
+    padding:10px;
+    font-size:20px;
+}
+
+ul{
+    list-style:none;
+    padding-left:10px;
+}
+
+ul li{
+    margin:10px 0;
+}
+
+.service{
+    width:45%;
+    display:inline-block;
+    vertical-align:top;
+    margin-right:20px;
+}
+
+button{
+    background:#b7d92c;
+    padding:10px 20px;
+}
+
+.footer{
+    background:#b7d92c;
+    text-align:center;
+    padding:20px;
+    margin:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Enter Site Title</h1>
+        <h3>Enter Site Slogan</h3>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">New Page</a>
+        <a href="#">New Page 2</a>
+        <a href="#">New Page 3</a>
+        <a href="#">New Page 4</a>
+        <a href="#">New Page 5</a>
+    </div>
+
+    <!-- Content -->
+    <table class="content">
+
+        <tr>
+
+            <!-- Left Sidebar -->
+            <td class="sidebar">
+
+                <div class="box-title">Main Menu</div>
+
+                <ul>
+                    <li>Menu Item 1</li>
+                    <li>Menu Item 2</li>
+                    <li>Menu Item 3</li>
+                    <li>Menu Item 4</li>
+                    <li>Menu Item 5</li>
+                    <li>Menu Item 6</li>
+                    <li>Menu Item 7</li>
+                    <li>Menu Item 8</li>
+                </ul>
+
+                <br>
+
+                <div class="box-title">Block</div>
+
+                <p>Enter block content here...</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                </p>
+
+            </td>
+
+            <!-- Main Area -->
+            <td class="main">
+
+                <h1>Gallery</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Aenean commodo ligula
+                    eget dolor. Donec quam felis.
+                </p>
+
+                <br>
+
+                <div class="service">
+                    <h1>Subscription</h1>
+
+                    <p>
+                        Etiam ultricies nisi vel augue.
+                        Curabitur ullamcorper ultricies nisi.
+                    </p>
+
+                    <button>Read More</button>
+                </div>
+
+                <div class="service">
+                    <h1>Other Services</h1>
+
+                    <p>
+                        Etiam ultricies nisi vel augue.
+                        Curabitur ullamcorper ultricies nisi.
+                    </p>
+
+                    <button>Read More</button>
+                </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        Copyright © 2014. Design by htmltemplates.net
+    </div>
+
+</div>
+
+</body>
+</html>
